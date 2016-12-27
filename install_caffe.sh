@@ -63,7 +63,7 @@ pip install easydict
 # Let's start to install caffe.
 CAFFE_ROOT=$1
 
-cd CAFFE_ROOT
+cd $CAFFE_ROOT
 make clean 
 make -j8 && make pycaffe
 
