@@ -17,7 +17,7 @@ sudo echo 'export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64${LD_LIBRARY_PATH:+:$
 sudo source ~/.bashrc
 
 # Set up the path and enable the linkage.
-sudo echo 'export PATH=/us/local/cuda/bin:$PATH' >> /etc/profile
+sudo echo 'export PATH=/usr/local/cuda/bin:$PATH' >> /etc/profile
 sudo echo '/usr/local/cuda/lib64' >> /ect/ld.so.conf.d/cuda.conf
 sudo ldconfig
 
